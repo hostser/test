@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    internal class Message
+    public class Message
     {
         public Message() { }
         public Guid Id  { get; set; }

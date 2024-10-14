@@ -20,7 +20,7 @@ namespace Data.Core.Context
         string getSqlLiteConnect()
         {
             var dir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.Parent;
-            return $@"Data source={dir}\Applications\Core\Database\Messanger.db";
+            return $@"Data source={dir}\Data\Core\Database\Messanger.db";
         }
 
         public DbSet<User> Users { get; set; }

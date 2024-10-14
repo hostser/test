@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    internal class Chat
+    public class Chat
     {
         public Chat () { }
 

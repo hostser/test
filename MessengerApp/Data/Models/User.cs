@@ -9,7 +9,7 @@ using Data.Utilities.Enums;
 
 namespace Data.Models
 {
-    internal class User
+    public class User
     {
         public Guid Id { get; set; }
 
