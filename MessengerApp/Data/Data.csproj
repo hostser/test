@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\Context\" />
+    <Folder Include="Core\Database\" />
+    <Folder Include="Services\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="Utilities\Converters\" />
+    <Folder Include="Utilities\EntityCheckups\" />
+    <Folder Include="Utilities\Enums\" />
+    <Folder Include="Utilities\Generators\" />
+  </ItemGroup>
+
+</Project>
