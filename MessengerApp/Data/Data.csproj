@@ -14,7 +14,6 @@
     <Folder Include="Handlers\" />
     <Folder Include="Utilities\Converters\" />
     <Folder Include="Utilities\EntityCheckups\" />
-    <Folder Include="Utilities\Enums\" />
     <Folder Include="Utilities\Generators\" />
   </ItemGroup>
 
