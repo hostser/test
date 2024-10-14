@@ -4,6 +4,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Data.Utilities;
+using Data.Utilities.Enums;
 
 namespace Data.Models
 {
