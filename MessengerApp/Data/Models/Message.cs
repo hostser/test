@@ -10,7 +10,7 @@ namespace Data.Models
     internal class Message
     {
         public Message() { }
-        public Guid Id { get; set; }
+        public Guid Id  { get; set; }
         public string Text { get; set; } = string.Empty;
         public DateTime SendDate { get; set; }
 
